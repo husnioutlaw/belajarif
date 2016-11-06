@@ -106,6 +106,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="TES\TES 1.Designer.vb">
+      <DependentUpon>TES 1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TES\TES 1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TES\TES 2.Designer.vb">
+      <DependentUpon>TES 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TES\TES 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="PERTEMUAN PERTAMA\Lanjut1.resx">
@@ -122,6 +134,12 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TES\TES 1.resx">
+      <DependentUpon>TES 1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TES\TES 2.resx">
+      <DependentUpon>TES 2.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
