@@ -72,6 +72,24 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="nya_Hensh\JAWABANPERTAMA.Designer.vb">
+      <DependentUpon>JAWABANPERTAMA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="nya_Hensh\JAWABANPERTAMA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nya_Hensh\Jawaban_1.Designer.vb">
+      <DependentUpon>Jawaban_1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="nya_Hensh\Jawaban_1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nya_Hensh\Jawaban_2.Designer.vb">
+      <DependentUpon>Jawaban_2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="nya_Hensh\Jawaban_2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="PERTEMUAN PERTAMA\Lanjut1.Designer.vb">
       <DependentUpon>Lanjut1.vb</DependentUpon>
     </Compile>
@@ -120,6 +138,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="nya_Hensh\JAWABANPERTAMA.resx">
+      <DependentUpon>JAWABANPERTAMA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nya_Hensh\Jawaban_1.resx">
+      <DependentUpon>Jawaban_1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nya_Hensh\Jawaban_2.resx">
+      <DependentUpon>Jawaban_2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PERTEMUAN PERTAMA\Lanjut1.resx">
       <DependentUpon>Lanjut1.vb</DependentUpon>
     </EmbeddedResource>

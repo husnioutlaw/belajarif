@@ -30,30 +30,33 @@ Partial Class TES_1
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(0, -1)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
         Me.TextBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.TextBox1.Size = New System.Drawing.Size(618, 358)
+        Me.TextBox1.Size = New System.Drawing.Size(823, 626)
         Me.TextBox1.TabIndex = 0
         Me.TextBox1.Text = resources.GetString("TextBox1.Text")
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(1, 363)
+        Me.Button1.Location = New System.Drawing.Point(0, 633)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(618, 46)
+        Me.Button1.Size = New System.Drawing.Size(824, 57)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "NEXT >>"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TES_1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(619, 408)
+        Me.ClientSize = New System.Drawing.Size(825, 693)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "TES_1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "TES_1"

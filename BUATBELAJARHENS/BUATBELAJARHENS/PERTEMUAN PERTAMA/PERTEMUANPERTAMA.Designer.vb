@@ -39,9 +39,10 @@ Partial Class PERTEMUANPERTAMA
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 9)
+        Me.Label1.Location = New System.Drawing.Point(16, 11)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(83, 20)
+        Me.Label1.Size = New System.Drawing.Size(102, 25)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Username"
         '
@@ -49,9 +50,10 @@ Partial Class PERTEMUANPERTAMA
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(12, 39)
+        Me.Label2.Location = New System.Drawing.Point(16, 48)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(78, 20)
+        Me.Label2.Size = New System.Drawing.Size(98, 25)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Password"
         '
@@ -59,9 +61,10 @@ Partial Class PERTEMUANPERTAMA
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(93, 119)
+        Me.Label3.Location = New System.Drawing.Point(124, 146)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(78, 20)
+        Me.Label3.Size = New System.Drawing.Size(98, 25)
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Password"
         '
@@ -69,9 +72,10 @@ Partial Class PERTEMUANPERTAMA
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(93, 99)
+        Me.Label4.Location = New System.Drawing.Point(124, 122)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(83, 20)
+        Me.Label4.Size = New System.Drawing.Size(102, 25)
         Me.Label4.TabIndex = 2
         Me.Label4.Text = "Username"
         '
@@ -79,9 +83,10 @@ Partial Class PERTEMUANPERTAMA
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(178, 99)
+        Me.Label5.Location = New System.Drawing.Point(237, 122)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(14, 20)
+        Me.Label5.Size = New System.Drawing.Size(19, 25)
         Me.Label5.TabIndex = 5
         Me.Label5.Text = "-"
         '
@@ -89,40 +94,45 @@ Partial Class PERTEMUANPERTAMA
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(178, 119)
+        Me.Label6.Location = New System.Drawing.Point(237, 146)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(14, 20)
+        Me.Label6.Size = New System.Drawing.Size(19, 25)
         Me.Label6.TabIndex = 4
         Me.Label6.Text = "-"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 99)
+        Me.Button1.Location = New System.Drawing.Point(16, 122)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 40)
+        Me.Button1.Size = New System.Drawing.Size(100, 49)
         Me.Button1.TabIndex = 6
         Me.Button1.Text = "PROSES"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(101, 12)
+        Me.TextBox1.Location = New System.Drawing.Point(135, 15)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(193, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(256, 22)
         Me.TextBox1.TabIndex = 7
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(101, 41)
+        Me.TextBox2.Location = New System.Drawing.Point(135, 50)
+        Me.TextBox2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(193, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(256, 22)
         Me.TextBox2.TabIndex = 8
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(300, 12)
+        Me.Button2.Location = New System.Drawing.Point(400, 15)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 49)
+        Me.Button2.Size = New System.Drawing.Size(100, 60)
         Me.Button2.TabIndex = 9
         Me.Button2.Text = "PINDAH"
         Me.Button2.UseVisualStyleBackColor = True
@@ -130,18 +140,19 @@ Partial Class PERTEMUANPERTAMA
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(101, 67)
+        Me.CheckBox1.Location = New System.Drawing.Point(135, 82)
+        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(61, 17)
+        Me.CheckBox1.Size = New System.Drawing.Size(73, 21)
         Me.CheckBox1.TabIndex = 10
         Me.CheckBox1.Text = "ADMIN"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
         'PERTEMUANPERTAMA
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(391, 151)
+        Me.ClientSize = New System.Drawing.Size(521, 186)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox2)
@@ -153,6 +164,7 @@ Partial Class PERTEMUANPERTAMA
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "PERTEMUANPERTAMA"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "PETEMUAN PERTAMA"
